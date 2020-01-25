@@ -24,6 +24,9 @@
                                             <segment title="First"/>
                                             <segment title="Second"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="segmentedControlAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="QpX-gl-dkt"/>
+                                        </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Caption" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8G-iU-fyr">
                                         <rect key="frame" x="104" y="71" width="92.5" height="20.5"/>
@@ -50,6 +53,9 @@
                                             <segment title="First"/>
                                             <segment title="Second"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="segmentedControlAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="PjG-R6-T1a"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                             </stackView>
@@ -61,6 +67,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomCaptionLabel" destination="Tax-wJ-ifR" id="ABl-T7-HLX"/>
+                        <outlet property="bottomCaptionSegmentedControl" destination="TkE-3k-rAx" id="h0F-6I-15Y"/>
+                        <outlet property="topCaptionLabel" destination="p8G-iU-fyr" id="P7U-lg-cRX"/>
+                        <outlet property="topCaptionSegmentedControl" destination="V0E-ty-LME" id="BZg-pM-MhM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

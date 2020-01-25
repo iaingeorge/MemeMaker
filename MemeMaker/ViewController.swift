@@ -15,6 +15,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    
+    @IBOutlet weak var topCaptionLabel: UILabel!
+    @IBOutlet weak var bottomCaptionLabel: UILabel!
+    
+    @IBOutlet weak var topCaptionSegmentedControl: UISegmentedControl!
+    
+    @IBOutlet weak var bottomCaptionSegmentedControl: UISegmentedControl!
+    
+    @IBAction func segmentedControlAction(_ sender: Any) {
+    }
 }
 
