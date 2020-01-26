@@ -15,6 +15,7 @@
 		4B0E9BDA23DD054B00C5C17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0E9BD823DD054B00C5C17C /* LaunchScreen.storyboard */; };
 		4B0E9BE523DD054B00C5C17C /* MemeMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0E9BE423DD054B00C5C17C /* MemeMakerTests.swift */; };
 		4B0E9BF023DD054B00C5C17C /* MemeMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0E9BEF23DD054B00C5C17C /* MemeMakerUITests.swift */; };
+		4B0E9BFE23DD0DB200C5C17C /* CaptionChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0E9BFD23DD0DB200C5C17C /* CaptionChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4B0E9BEB23DD054B00C5C17C /* MemeMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0E9BEF23DD054B00C5C17C /* MemeMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMakerUITests.swift; sourceTree = "<group>"; };
 		4B0E9BF123DD054B00C5C17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B0E9BFD23DD0DB200C5C17C /* CaptionChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4B0E9BD623DD054B00C5C17C /* Assets.xcassets */,
 				4B0E9BD823DD054B00C5C17C /* LaunchScreen.storyboard */,
 				4B0E9BDB23DD054B00C5C17C /* Info.plist */,
+				4B0E9BFD23DD0DB200C5C17C /* CaptionChoice.swift */,
 			);
 			path = MemeMaker;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				4B0E9BD223DD054900C5C17C /* ViewController.swift in Sources */,
 				4B0E9BCE23DD054900C5C17C /* AppDelegate.swift in Sources */,
 				4B0E9BD023DD054900C5C17C /* SceneDelegate.swift in Sources */,
+				4B0E9BFE23DD0DB200C5C17C /* CaptionChoice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
