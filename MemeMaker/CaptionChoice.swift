@@ -12,3 +12,5 @@ struct CaptionOption {
     let caption: String
     let emoji: String
 }
+
+
