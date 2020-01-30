@@ -15,9 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    let topChoices = [CaptionOption(caption: "What time is it", emoji: "⏰"), CaptionOption(caption: "Where are we?", emoji: "🏡"), CaptionOption(caption: "This is the way!", emoji: "🐰")]
+    let topChoices = [CaptionOption(caption: "You know what is neat?", emoji: "⏰"), CaptionOption(caption: "How fast can you go?", emoji: "🚄"), CaptionOption(caption: "You know what is beautiful?", emoji: "🌄")]
            
-    let bottomChoices = [CaptionOption]()
+    let bottomChoices = [CaptionOption(caption: "Bunnys in hats", emoji: "🐰"), CaptionOption(caption: "Cats being sneaky", emoji: "🙀"), CaptionOption(caption: "Birds being flappy", emoji: "🦅")]
     
     @IBOutlet weak var topCaptionLabel: UILabel!
     @IBOutlet weak var bottomCaptionLabel: UILabel!
